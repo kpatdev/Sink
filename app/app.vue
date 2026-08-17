@@ -35,7 +35,7 @@ useHead(() => ({
   link: [
     {
       rel: 'canonical',
-      href: computed(() => `https://sink.cool${route.path}`),
+      href: computed(() => `${landingConfig.origin}${route.path}`),
     },
     {
       rel: 'icon',
